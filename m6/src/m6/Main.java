@@ -26,7 +26,7 @@ public class Main {
 		
 		Senior mySenior = new Senior();
 		mySenior.setSalary(3000);
-		myManager.giveBonus();
+		mySenior.giveBonus();
 		System.out.println("Senior");
 		System.out.println("Net Salary: " + mySenior.getSalaryNet());
 		System.out.println("Gross Salary " + mySenior.getSalaryGross());
@@ -37,7 +37,7 @@ public class Main {
 		
 		Mid myMid = new Mid();
 		myMid.setSalary(2000);
-		myManager.giveBonus();
+		myMid.giveBonus();
 		System.out.println("Mid");
 		System.out.println("Net Salary: " + myMid.getSalaryNet());
 		System.out.println("Gross Salary " + myMid.getSalaryGross());
@@ -48,7 +48,7 @@ public class Main {
 		
 		Junior myJunior = new Junior();
 		myJunior.setSalary(1000);
-		myManager.giveBonus();
+		myJunior.giveBonus();
 		System.out.println("Junior");
 		System.out.println("Net Salary: " + myJunior.getSalaryNet());
 		System.out.println("Gross Salary " + myJunior.getSalaryGross());
